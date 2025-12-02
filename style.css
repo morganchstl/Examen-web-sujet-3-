@@ -7,10 +7,9 @@ body {
     header { 
     max-width: 960px;
     max-height: 480px;
-    margin: auto;
-}
+     margin-top: 100px;
+    margin-left: 450px;
 
-    header {
     display: flex;
     justify-content: center ; 
     align-items: center ; 
@@ -20,17 +19,36 @@ body {
 
 
     h2 { 
-    max-width: 960px;
-    max-height: 480px;
-    margin-top: 100px;
-    margin-left: 458px;
-    }
+        max-width: 960px;
+        max-height: 480px;
+        margin-top: 100px;
+        margin-left: 452px;
 
-
-    h2 {
         display: flex;
         justify-content: center ; 
         align-items: center ; 
         padding: 1rem 1rem;
         background-color: rgb(255, 255, 255);
 }
+
+    ul {
+        max-width: 480px;
+        max-height: 480px;
+        margin-top: 100px;
+        margin-left: 690px;
+
+        display: flex;
+        justify-content: center ; 
+        align-items: center ; 
+        padding: 1rem 1rem;
+        background-color: rgb(255, 255, 255);
+    }
+
+    footer {
+        max-width: 480px;
+        max-height: 480px;
+        margin-top: 100px;
+        margin-left: 930px;
+
+
+    }
