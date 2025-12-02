@@ -1,11 +1,36 @@
 body {
     font-family: Arial;
-    background-color: #414250;
-    color: #909b2b;
-    margin: 0;
+    background-color: #727171;
+    color: #000000;
+    border: 0;
+}
+    header { 
+    max-width: 960px;
+    max-height: 480px;
+    margin: auto;
+}
+
+    header {
+    display: flex;
+    justify-content: center ; 
+    align-items: center ; 
+    padding: 1rem 1rem;
+     background-color: rgb(255, 255, 255);
 }
 
 
-.container { 
+    h2 { 
     max-width: 960px;
-    margin: 0 auto;
+    max-height: 480px;
+    margin-top: 100px;
+    margin-left: 458px;
+    }
+
+
+    h2 {
+        display: flex;
+        justify-content: center ; 
+        align-items: center ; 
+        padding: 1rem 1rem;
+        background-color: rgb(255, 255, 255);
+}
