@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titre de ma page</title>
+    <title>Question 1 Quiz</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
+<div class="container">
 <div class="Question">
-<li><a href="Quiz.html">Retour au menu</a></li>
+    <li><a href="Quiz.html">Retour au menu</a></li>
 <header>
-<h1>Question 1:</h1>
+    <h1>Question 1:</h1>
 </header>
 <main>
-   <h2>Quel est...</h2>
-</main>
+    <form id="answer" action="submit" method="post">
+    <li>Quel est...</li>
+    <label for="réponse"></label>
+<input id="name-input" type="text" id="name" name="user_name" />
+    </div>
+</main>  
+    <footer>
+    <button id="valider"> valider la réponse </button> 
+
+</form>
+    </footer>
+    <script src="script.js"></script>
 </div>
-<footer>
-     <button id="submite button">valider</button>
-</footer>
 </body>
 </html>
